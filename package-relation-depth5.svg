@@ -1,0 +1,242 @@
+<svg width="627px" height="369px"
+ viewBox="0.00 0.00 627.34 369.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="graph0" class="graph" transform=" rotate(0) translate(4 365.0002)">
+<title>%3</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-365.0002 623.3357,-365.0002 623.3357,4 -4,4"/>
+<text text-anchor="middle" x="309.6679" y="-6.8" font-family="Times,serif" font-size="14.00" fill="#000000">PackageRelationDiagram [2019.11.4]</text>
+<g id="clust1" class="cluster">
+<title>cluster_example.domain.model.specification</title>
+<polygon fill="#fffacd" stroke="#eedd82" stroke-width="2" points="161.6157,-93 161.6157,-353.0002 411.6157,-353.0002 411.6157,-93 161.6157,-93"/>
+<text text-anchor="middle" x="286.6157" y="-337.8002" font-family="Times,serif" font-size="14.00" fill="#000000">旅行内容</text>
+<text text-anchor="middle" x="286.6157" y="-316.8002" font-family="Times,serif" font-size="14.00" fill="#000000">specification</text>
+</g>
+<!-- summary -->
+<g id="node1" class="node">
+<title>summary</title>
+<polygon fill="none" stroke="#000000" points="147.3473,-298.5001 -.1159,-298.5001 -.1159,-262.5001 153.3473,-262.5001 153.3473,-292.5001 147.3473,-298.5001"/>
+<polyline fill="none" stroke="#000000" points="147.3473,-298.5001 147.3473,-292.5001 "/>
+<polyline fill="none" stroke="#000000" points="153.3473,-292.5001 147.3473,-292.5001 "/>
+<text text-anchor="start" x="8" y="-283.3001" font-family="Times,serif" font-size="14.00" fill="#000000">Number of packages: 10</text>
+<text text-anchor="start" x="8" y="-269.3001" font-family="Times,serif" font-size="14.00" fill="#000000">Number of relations: 25</text>
+</g>
+<!-- example.domain.model.bill -->
+<g id="node2" class="node">
+<title>example.domain.model.bill</title>
+<polygon fill="#eedd82" stroke="#000000" points="531.6157,-223.0001 459.6157,-223.0001 459.6157,-180.0001 531.6157,-180.0001 531.6157,-223.0001"/>
+<text text-anchor="middle" x="495.6157" y="-207.8001" font-family="Times,serif" font-size="14.00" fill="#000000">旅行代金</text>
+<text text-anchor="middle" x="495.6157" y="-186.8001" font-family="Times,serif" font-size="14.00" fill="#000000">bill</text>
+</g>
+<!-- example.domain.model.attempt -->
+<g id="node3" class="node">
+<title>example.domain.model.attempt</title>
+<polygon fill="#eedd82" stroke="#000000" points="477.6021,-144.0001 419.6294,-144.0001 419.6294,-101 477.6021,-101 477.6021,-144.0001"/>
+<text text-anchor="middle" x="448.6157" y="-128.8001" font-family="Times,serif" font-size="14.00" fill="#000000">希望</text>
+<text text-anchor="middle" x="448.6157" y="-107.8" font-family="Times,serif" font-size="14.00" fill="#000000">attempt</text>
+</g>
+<!-- example.domain.model.bill&#45;&gt;example.domain.model.attempt -->
+<g id="edge1" class="edge">
+<title>example.domain.model.bill&#45;&gt;example.domain.model.attempt</title>
+<path fill="none" stroke="#000000" d="M482.7728,-179.913C477.7989,-171.5527 472.0171,-161.8342 466.6401,-152.7964"/>
+<polygon fill="#000000" stroke="#000000" points="469.5641,-150.8656 461.4432,-144.0611 463.5482,-154.4447 469.5641,-150.8656"/>
+</g>
+<!-- example.domain.model.specification -->
+<g id="node5" class="node">
+<title>example.domain.model.specification</title>
+<polygon fill="#eedd82" stroke="#000000" points="449.8748,-65.0001 363.3566,-65.0001 363.3566,-22 449.8748,-22 449.8748,-65.0001"/>
+<text text-anchor="middle" x="406.6157" y="-49.8" font-family="Times,serif" font-size="14.00" fill="#000000">旅行内容</text>
+<text text-anchor="middle" x="406.6157" y="-28.8" font-family="Times,serif" font-size="14.00" fill="#000000">specification</text>
+</g>
+<!-- example.domain.model.attempt&#45;&gt;example.domain.model.specification -->
+<g id="edge20" class="edge">
+<title>example.domain.model.attempt&#45;&gt;example.domain.model.specification</title>
+<path fill="none" stroke="#000000" d="M437.139,-100.913C432.7406,-92.6398 427.6351,-83.0365 422.8729,-74.079"/>
+<polygon fill="#000000" stroke="#000000" points="425.8633,-72.2477 418.0785,-65.061 419.6825,-75.5338 425.8633,-72.2477"/>
+</g>
+<!-- example.domain.model.specification.price -->
+<g id="node6" class="node">
+<title>example.domain.model.specification.price</title>
+<polygon fill="#eedd82" stroke="#000000" points="403.6157,-223.0001 349.6157,-223.0001 349.6157,-180.0001 403.6157,-180.0001 403.6157,-223.0001"/>
+<text text-anchor="middle" x="376.6157" y="-207.8001" font-family="Times,serif" font-size="14.00" fill="#000000">料金</text>
+<text text-anchor="middle" x="376.6157" y="-186.8001" font-family="Times,serif" font-size="14.00" fill="#000000">price</text>
+</g>
+<!-- example.domain.model.attempt&#45;&gt;example.domain.model.specification.price -->
+<g id="edge24" class="edge">
+<title>example.domain.model.attempt&#45;&gt;example.domain.model.specification.price</title>
+<path fill="none" stroke="#000000" d="M428.9652,-144.0611C421.0309,-152.7667 411.7514,-162.9485 403.2269,-172.3017"/>
+<polygon fill="#000000" stroke="#000000" points="400.4393,-170.1644 396.29,-179.913 405.6129,-174.8797 400.4393,-170.1644"/>
+</g>
+<!-- example.domain.model.specification.basicfare -->
+<g id="node7" class="node">
+<title>example.domain.model.specification.basicfare</title>
+<polygon fill="#eedd82" stroke="#000000" points="241.6157,-223.0001 169.6157,-223.0001 169.6157,-180.0001 241.6157,-180.0001 241.6157,-223.0001"/>
+<text text-anchor="middle" x="205.6157" y="-207.8001" font-family="Times,serif" font-size="14.00" fill="#000000">基本料金</text>
+<text text-anchor="middle" x="205.6157" y="-186.8001" font-family="Times,serif" font-size="14.00" fill="#000000">basicfare</text>
+</g>
+<!-- example.domain.model.attempt&#45;&gt;example.domain.model.specification.basicfare -->
+<g id="edge22" class="edge">
+<title>example.domain.model.attempt&#45;&gt;example.domain.model.specification.basicfare</title>
+<path fill="none" stroke="#000000" d="M419.4052,-142.2816C418.1433,-142.896 416.8774,-143.4724 415.6157,-144.0001 349.2098,-171.7735 323.7231,-157.0006 251.23,-180.2037"/>
+<polygon fill="#000000" stroke="#000000" points="250.0417,-176.9104 241.6636,-183.3956 252.2573,-183.5506 250.0417,-176.9104"/>
+</g>
+<!-- example.domain.model.specification.adult -->
+<g id="node8" class="node">
+<title>example.domain.model.specification.adult</title>
+<polygon fill="#eedd82" stroke="#000000" points="403.6157,-302.0002 331.6157,-302.0002 331.6157,-259.0001 403.6157,-259.0001 403.6157,-302.0002"/>
+<text text-anchor="middle" x="367.6157" y="-286.8002" font-family="Times,serif" font-size="14.00" fill="#000000">大人料金</text>
+<text text-anchor="middle" x="367.6157" y="-265.8001" font-family="Times,serif" font-size="14.00" fill="#000000">adult</text>
+</g>
+<!-- example.domain.model.attempt&#45;&gt;example.domain.model.specification.adult -->
+<g id="edge21" class="edge">
+<title>example.domain.model.attempt&#45;&gt;example.domain.model.specification.adult</title>
+<path fill="none" stroke="#000000" d="M478.0383,-132.0835C499.6195,-140.8383 527.3762,-156.1127 540.6157,-180.0001 549.8802,-196.7155 551.7969,-207.5012 540.6157,-223.0001 525.5523,-243.8804 459.7612,-261.4447 413.8043,-271.4744"/>
+<polygon fill="#000000" stroke="#000000" points="412.7981,-268.1102 403.748,-273.6189 414.2581,-274.9562 412.7981,-268.1102"/>
+</g>
+<!-- example.domain.model.specification.surcharge -->
+<g id="node9" class="node">
+<title>example.domain.model.specification.surcharge</title>
+<polygon fill="#eedd82" stroke="#000000" points="331.6157,-223.0001 259.6157,-223.0001 259.6157,-180.0001 331.6157,-180.0001 331.6157,-223.0001"/>
+<text text-anchor="middle" x="295.6157" y="-207.8001" font-family="Times,serif" font-size="14.00" fill="#000000">特急料金</text>
+<text text-anchor="middle" x="295.6157" y="-186.8001" font-family="Times,serif" font-size="14.00" fill="#000000">surcharge</text>
+</g>
+<!-- example.domain.model.attempt&#45;&gt;example.domain.model.specification.surcharge -->
+<g id="edge25" class="edge">
+<title>example.domain.model.attempt&#45;&gt;example.domain.model.specification.surcharge</title>
+<path fill="none" stroke="#000000" d="M419.5918,-141.7032C418.2567,-142.4936 416.927,-143.2629 415.6157,-144.0001 414.6839,-144.5239 374.6803,-163.6802 341.1172,-179.7385"/>
+<polygon fill="#000000" stroke="#000000" points="339.3697,-176.6946 331.8594,-184.1676 342.3907,-183.0092 339.3697,-176.6946"/>
+</g>
+<!-- example.domain.model.specification.child -->
+<g id="node10" class="node">
+<title>example.domain.model.specification.child</title>
+<polygon fill="#eedd82" stroke="#000000" points="313.6157,-302.0002 241.6157,-302.0002 241.6157,-259.0001 313.6157,-259.0001 313.6157,-302.0002"/>
+<text text-anchor="middle" x="277.6157" y="-286.8002" font-family="Times,serif" font-size="14.00" fill="#000000">子供料金</text>
+<text text-anchor="middle" x="277.6157" y="-265.8001" font-family="Times,serif" font-size="14.00" fill="#000000">child</text>
+</g>
+<!-- example.domain.model.attempt&#45;&gt;example.domain.model.specification.child -->
+<g id="edge23" class="edge">
+<title>example.domain.model.attempt&#45;&gt;example.domain.model.specification.child</title>
+<path fill="none" stroke="#000000" d="M446.1161,-144.0429C442.4448,-166.4549 433.5834,-201.252 412.6157,-223.0001 384.6999,-251.9551 364.8552,-243.1486 323.1201,-259.1215"/>
+<polygon fill="#000000" stroke="#000000" points="321.7863,-255.8855 313.8713,-262.9285 324.4508,-262.3586 321.7863,-255.8855"/>
+</g>
+<!-- example.domain.model.specification.discount -->
+<g id="node4" class="node">
+<title>example.domain.model.specification.discount</title>
+<polygon fill="#eedd82" stroke="#000000" points="401.6157,-144.0001 329.6157,-144.0001 329.6157,-101 401.6157,-101 401.6157,-144.0001"/>
+<text text-anchor="middle" x="365.6157" y="-128.8001" font-family="Times,serif" font-size="14.00" fill="#000000">割引料金</text>
+<text text-anchor="middle" x="365.6157" y="-107.8" font-family="Times,serif" font-size="14.00" fill="#000000">discount</text>
+</g>
+<!-- example.domain.model.specification.discount&#45;&gt;example.domain.model.bill -->
+<g id="edge2" class="edge">
+<title>example.domain.model.specification.discount&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M401.0958,-144.0611C416.5677,-153.4632 434.8727,-164.587 451.2336,-174.5294"/>
+<polygon fill="#000000" stroke="#000000" points="449.7292,-177.7108 460.0927,-179.913 453.3645,-171.7287 449.7292,-177.7108"/>
+</g>
+<!-- example.domain.model.specification.discount&#45;&gt;example.domain.model.specification -->
+<g id="edge3" class="edge">
+<title>example.domain.model.specification.discount&#45;&gt;example.domain.model.specification</title>
+<path fill="none" stroke="#000000" d="M376.8192,-100.913C381.1128,-92.6398 386.0968,-83.0365 390.7456,-74.079"/>
+<polygon fill="#000000" stroke="#000000" points="393.9259,-75.5492 395.4258,-65.061 387.7128,-72.3246 393.9259,-75.5492"/>
+</g>
+<!-- example.domain.model.specification&#45;&gt;example.domain.model.bill -->
+<g id="edge5" class="edge">
+<title>example.domain.model.specification&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M450.0254,-60.7276C464.009,-68.4743 478.0826,-79.0738 486.6157,-93 500.5969,-115.8177 501.8665,-146.5823 500.2083,-169.525"/>
+<polygon fill="#000000" stroke="#000000" points="496.6962,-169.4891 499.239,-179.7742 503.6651,-170.1482 496.6962,-169.4891"/>
+</g>
+<!-- example.domain.model.specification.price&#45;&gt;example.domain.model.bill -->
+<g id="edge4" class="edge">
+<title>example.domain.model.specification.price&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M404.0415,-201.5001C419.0579,-201.5001 434.0744,-201.5001 449.0908,-201.5001"/>
+<polygon fill="#000000" stroke="#000000" points="449.4869,-205.0002 459.4868,-201.5001 449.4868,-198.0002 449.4869,-205.0002"/>
+</g>
+<!-- example.domain.model.specification.basicfare&#45;&gt;example.domain.model.bill -->
+<g id="edge6" class="edge">
+<title>example.domain.model.specification.basicfare&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M228.5028,-223.1906C237.4936,-230.3027 248.3538,-237.3208 259.6157,-241.0001 334.3929,-265.4301 361.3468,-263.87 436.6157,-241.0001 445.537,-238.2895 454.3372,-233.7322 462.309,-228.6561"/>
+<polygon fill="#000000" stroke="#000000" points="464.3069,-231.5302 470.6007,-223.0074 460.3657,-225.7451 464.3069,-231.5302"/>
+</g>
+<!-- example.domain.model.specification.basicfare&#45;&gt;example.domain.model.specification.discount -->
+<g id="edge8" class="edge">
+<title>example.domain.model.specification.basicfare&#45;&gt;example.domain.model.specification.discount</title>
+<path fill="none" stroke="#000000" d="M241.9222,-183.5738C265.1409,-172.1095 295.443,-157.1479 320.2435,-144.9026"/>
+<polygon fill="#000000" stroke="#000000" points="322.0359,-147.9211 329.4529,-140.3555 318.9368,-141.6445 322.0359,-147.9211"/>
+</g>
+<!-- example.domain.model.specification.basicfare&#45;&gt;example.domain.model.specification -->
+<g id="edge7" class="edge">
+<title>example.domain.model.specification.basicfare&#45;&gt;example.domain.model.specification</title>
+<path fill="none" stroke="#000000" d="M219.1633,-179.8018C235.0138,-155.8837 263.2467,-117.5512 295.6157,-93 313.0248,-79.7957 334.5124,-69.1743 353.9302,-61.2068"/>
+<polygon fill="#000000" stroke="#000000" points="355.2602,-64.4447 363.2694,-57.509 352.6832,-57.9362 355.2602,-64.4447"/>
+</g>
+<!-- example.domain.model.specification.adult&#45;&gt;example.domain.model.bill -->
+<g id="edge9" class="edge">
+<title>example.domain.model.specification.adult&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M402.5923,-258.913C417.8312,-249.5077 435.8554,-238.3834 451.9611,-228.4432"/>
+<polygon fill="#000000" stroke="#000000" points="454.01,-231.2917 460.6815,-223.0611 450.3335,-225.3349 454.01,-231.2917"/>
+</g>
+<!-- example.domain.model.specification.adult&#45;&gt;example.domain.model.specification.price -->
+<g id="edge11" class="edge">
+<title>example.domain.model.specification.adult&#45;&gt;example.domain.model.specification.price</title>
+<path fill="none" stroke="#000000" d="M370.075,-258.913C370.9778,-250.9882 372.0197,-241.8429 373.0028,-233.2139"/>
+<polygon fill="#000000" stroke="#000000" points="376.5049,-233.393 374.1594,-223.0611 369.5499,-232.6006 376.5049,-233.393"/>
+</g>
+<!-- example.domain.model.specification.adult&#45;&gt;example.domain.model.specification.basicfare -->
+<g id="edge10" class="edge">
+<title>example.domain.model.specification.adult&#45;&gt;example.domain.model.specification.basicfare</title>
+<path fill="none" stroke="#000000" d="M331.2598,-262.771C307.4978,-251.1834 276.2815,-235.9606 250.9091,-223.5876"/>
+<polygon fill="#000000" stroke="#000000" points="252.3727,-220.4074 241.8503,-219.1701 249.3045,-226.6992 252.3727,-220.4074"/>
+</g>
+<!-- example.domain.model.specification.adult&#45;&gt;example.domain.model.specification.surcharge -->
+<g id="edge12" class="edge">
+<title>example.domain.model.specification.adult&#45;&gt;example.domain.model.specification.surcharge</title>
+<path fill="none" stroke="#000000" d="M347.9414,-258.913C340.0045,-250.2044 330.7243,-240.022 322.2013,-230.6705"/>
+<polygon fill="#000000" stroke="#000000" points="324.5892,-228.0944 315.2663,-223.0611 319.4155,-232.8097 324.5892,-228.0944"/>
+</g>
+<!-- example.domain.model.specification.surcharge&#45;&gt;example.domain.model.bill -->
+<g id="edge13" class="edge">
+<title>example.domain.model.specification.surcharge&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M318.5028,-223.1906C327.4936,-230.3027 338.3538,-237.3208 349.6157,-241.0001 386.3706,-253.0081 399.6191,-252.2413 436.6157,-241.0001 445.537,-238.2895 454.3372,-233.7322 462.309,-228.6561"/>
+<polygon fill="#000000" stroke="#000000" points="464.3069,-231.5302 470.6007,-223.0074 460.3657,-225.7451 464.3069,-231.5302"/>
+</g>
+<!-- example.domain.model.specification.surcharge&#45;&gt;example.domain.model.specification -->
+<g id="edge14" class="edge">
+<title>example.domain.model.specification.surcharge&#45;&gt;example.domain.model.specification</title>
+<path fill="none" stroke="#000000" d="M295.6506,-179.8333C296.7342,-156.295 301.6323,-118.6307 320.6157,-93 329.1965,-81.4147 341.3575,-72.1141 353.8411,-64.8425"/>
+<polygon fill="#000000" stroke="#000000" points="355.8226,-67.7493 362.9415,-59.9026 352.4831,-61.5973 355.8226,-67.7493"/>
+</g>
+<!-- example.domain.model.specification.child&#45;&gt;example.domain.model.bill -->
+<g id="edge15" class="edge">
+<title>example.domain.model.specification.child&#45;&gt;example.domain.model.bill</title>
+<path fill="none" stroke="#000000" d="M313.7458,-262.6226C316.7218,-261.3387 319.7043,-260.1134 322.6157,-259.0001 375.8189,-238.6565 392.02,-242.286 445.6157,-223.0001 447.0327,-222.4902 448.4671,-221.9605 449.9111,-221.4154"/>
+<polygon fill="#000000" stroke="#000000" points="451.4776,-224.5602 459.5013,-217.6413 448.9142,-218.0465 451.4776,-224.5602"/>
+</g>
+<!-- example.domain.model.specification.child&#45;&gt;example.domain.model.specification.price -->
+<g id="edge17" class="edge">
+<title>example.domain.model.specification.child&#45;&gt;example.domain.model.specification.price</title>
+<path fill="none" stroke="#000000" d="M304.6679,-258.913C316.0177,-249.8561 329.3652,-239.2051 341.4616,-229.5524"/>
+<polygon fill="#000000" stroke="#000000" points="343.9629,-232.0342 349.5962,-223.0611 339.5968,-226.5627 343.9629,-232.0342"/>
+</g>
+<!-- example.domain.model.specification.child&#45;&gt;example.domain.model.specification.basicfare -->
+<g id="edge16" class="edge">
+<title>example.domain.model.specification.child&#45;&gt;example.domain.model.specification.basicfare</title>
+<path fill="none" stroke="#000000" d="M257.9414,-258.913C250.0045,-250.2044 240.7243,-240.022 232.2013,-230.6705"/>
+<polygon fill="#000000" stroke="#000000" points="234.5892,-228.0944 225.2663,-223.0611 229.4155,-232.8097 234.5892,-228.0944"/>
+</g>
+<!-- example.domain.model.specification.child&#45;&gt;example.domain.model.specification.surcharge -->
+<g id="edge18" class="edge">
+<title>example.domain.model.specification.child&#45;&gt;example.domain.model.specification.surcharge</title>
+<path fill="none" stroke="#000000" d="M282.5343,-258.913C284.3598,-250.9011 286.4695,-241.6418 288.4546,-232.9296"/>
+<polygon fill="#000000" stroke="#000000" points="291.894,-233.5888 290.7031,-223.0611 285.0689,-232.0337 291.894,-233.5888"/>
+</g>
+<!-- example.domain.model.rules -->
+<g id="node11" class="node">
+<title>example.domain.model.rules</title>
+<polygon fill="#eedd82" stroke="#000000" points="619.5569,-144.0001 533.6746,-144.0001 533.6746,-101 619.5569,-101 619.5569,-144.0001"/>
+<text text-anchor="middle" x="576.6157" y="-128.8001" font-family="Times,serif" font-size="14.00" fill="#000000">料金ルール</text>
+<text text-anchor="middle" x="576.6157" y="-107.8" font-family="Times,serif" font-size="14.00" fill="#000000">rules</text>
+</g>
+<!-- example.domain.model.rules&#45;&gt;example.domain.model.specification -->
+<g id="edge19" class="edge">
+<title>example.domain.model.rules&#45;&gt;example.domain.model.specification</title>
+<path fill="none" stroke="#000000" d="M535.6777,-100.9108C530.3017,-98.1942 524.845,-95.4954 519.6157,-93 500.1859,-83.7284 478.5928,-74.1062 459.5308,-65.8382"/>
+<polygon fill="#000000" stroke="#000000" points="460.6769,-62.5209 450.1086,-61.7718 457.9031,-68.9479 460.6769,-62.5209"/>
+</g>
+</g>
+</svg>
